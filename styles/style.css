@@ -112,6 +112,161 @@
 
 
 
+
+.habit_section{
+    background-color: black;
+   
+}
+
+/*.habit{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-items: center;
+   
+}*/
+
+.common_button{
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background-color: #E6533C;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+}
+
+.habit_description{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.habit_description h1{
+    color: #ffff;
+
+}
+
+.habit_description p{
+    color: #FFFFFF;
+    opacity: 50%;
+    font-size: x-small;
+}
+.habit_card{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 100px 0px 200px;
+   
+}
+
+.habit_card h4{
+    color: #ffff;
+}
+
+.habit_card p{
+    color: #FFFFFF;
+    opacity: 50%;
+
+}
+
+.card1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.img{
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+}
+
+/*Meet our team section*/
+
+.card_width{
+    border-radius: 10px;
+    width: 1100px;
+    height: 600px;
+}
+
+.images{
+    width:300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.title_images{
+    transform: translate(20px,-50px);
+}
+.card_parents{
+    
+    margin: auto;
+    padding: 60px 0px 10px 60px;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #5B5858;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+}
+
+.title{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title p{
+    opacity: 20%;
+}
+
+
+.runer{
+  border-radius: 10px;
+  margin: 40px 22px 40px 0px;
+}
+/* BMI */
+
+.bmi{
+    
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.Calculator{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.input{
+    
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.fild{
+    padding-left: 20px;
+    height: 30px;
+    background-color:white;
+    opacity: 60%;
+    border: none;
+    border-radius: 5px;
+}
+
+.chart{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+#span{
+    grid-column: span 2;
+}
+
 @media screen and (max-width:570px) {
     .nav_container{
         display: flex;
@@ -139,6 +294,19 @@
     .banner_card>h1{
         font-size: 36px;
         color: #ffff;
+}
+
+.habit_card{
+    display:flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin: auto;
+   
+}
+.habit{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 }
 
